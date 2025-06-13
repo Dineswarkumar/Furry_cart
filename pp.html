@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <title>FurryCart</title>
+    <link rel="stylesheet" href="pp.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    
+    <header>
+        <div class="indexlogo">
+            <img src="logo furrycart.jpg" alt="Furry Cart Logo" class="logo">
+            <div class="indexlogo-text">
+                <h1>FurryCart</h1>
+                <p>Healthy Pet, Healthy Home</p>
+            </div>
+        </div>
+        <form class="search" action="search_results.php" method="GET">
+            <input type="text" placeholder="Search products..." name="search" required>
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <ul class="social-media">
+            <li><a href="https://www.facebook.com/"><img id="facebook" src="facebook-icon.png" alt="Facebook"></a></li>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZXhMRsDJWCSSTTvFJWlgMmGmlJpcnFjbWLJDPmdXqHjfgDKkSBrKNMMQmhBnnkcCCRvBV"><img id="google" src="google-icon.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com/dinwark_2/"><img src="instagram-icon.png" alt="Instagram"></a></li>
+        </ul>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pp.html">Home</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li><a href="ppa.html">About</a></li>
+            <li><a href="ppc.html">Contact</a></li>
+        </ul>
+        <div class="profile-cart-container">
+            <div class="profile-dropdown">
+                <a href="#" class="profile-icon">
+                    <img src="profile.png" alt="Profile">
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="profile.html">View Profile</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="login.html" id="logout-link" class="logout-btn">Logout</a></li>
+                </ul>
+            </div>
+            <!-- Cart Icon -->
+            <div class="cart">
+                <a href="ppcart.php" class="cart-icon" id="cart-btn">  <!-- Changed from .html to .php -->
+                    <img src="cart.jpg" alt="Cart">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section class="welcome-section">
+        <div class="overlay"></div> <!-- Background Overlay -->
+        <div class="welcome-card">
+            <h1>Welcome to <span>Furry Cart</span></h1>
+            <a href="products.php" class="btn">Start Shopping &#8594</a>
+        </div>
+    </section>
+    <section id="products">
+        <h2>Our TOP Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img class="image-container" src="product1.jpg" alt="Product 1">
+                <p>Dog/Cat bowl <br> <br>&#x20B9 400.00</p>
+                <a href="products.php">
+                <button id="addToCart">Shop More</button>
+                </a>
+            </div>
+            <div class="product">
+                <img class="image-container" src="PRODUCTS\cat\cat_food.jpg" alt="Product 2">
+                <p>Cat beauty <br> <br> &#x20B9 600.00</p>
+                <a href="products.php">
+                    <button id="addToCart">Shop More</button>
+                </a>
+            </div>
+            <div class="product">
+                <img class="image-container" src="product3.jpg" alt="Product 2">
+                <p>Dog Tag <br> <br> &#x20B9 500.00</p>
+                <a href="products.php">
+                    <button id="addToCart">Shop More</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        // JavaScript for background image carousel
+        const welcomeSection = document.querySelector('.welcome-section');
+        const images = [
+            'landfurry.jpg', // First image
+            'welcome1.jpg',    // Second image
+            'welcome2.jpg'    // third image
+        ];
+        let currentIndex = 0;
+    
+        function changeBackground() {
+            // Update the background image
+            welcomeSection.style.backgroundImage = `url('${images[currentIndex]}')`;
+            // Move to the next image
+            currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+        }
+    
+        // Initial background setup
+        changeBackground();
+    
+        // Change background every 3 seconds
+        setInterval(changeBackground, 3000);
+    </script>
+    <script type="module" src="pp.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,421 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fcf9e7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 130px auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+/* cart icon */
+nav {
+    display: flex; /* Use Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between navigation links and cart */
+    align-items: center; /* Align items vertically in the center */
+    background-color: #fff8f0;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex; /* Align navigation links horizontally */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px; /* Add spacing between navigation links */
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #4c264c;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: font-size 0.3s, text-decoration 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0e2c59;
+    font-size: 18px;
+}
+
+.cart {
+    display: flex;
+    align-items: center; /* Align cart icon vertically */
+    margin-left: auto; /* Push the cart to the far right */
+}
+
+.cart-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.cart-icon img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+/* Profile and Cart Container */
+.profile-cart-container {
+    display: flex;
+    align-items: center; /* Align profile and cart icons vertically */
+    gap: 30px; /* Add spacing between profile and cart icons */
+}
+
+/* Profile Icon */
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Circular profile image */
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.profile-icon img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+/* Dropdown Menu */
+.profile-dropdown {
+    position: relative;
+}
+
+.profile-dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown menu on hover */
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background: white;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 150px;
+    z-index: 9999;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background: #f4f4f4;
+}
+
+/* Cart Icon */
+.cart-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.cart-icon img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+/* Logout Button Styling */
+.logout-btn {
+    color: red !important;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background: #ffecec;
+}
+
+/*upto here*/
+.logo {
+    width: 75px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 35%;
+    border: 2px solid #ccab79;
+}
+
+.login-table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.login-table th {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.login-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button#register,
+button#login {
+    background-color: #f69f1d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button#register:hover,
+button#login:hover {
+    background-color: #cd7904;
+}
+/*Search Bar */
+form.search-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height to center vertically */
+}
+form.search *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form.search {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    display: flex;
+    align-items: center; 
+    gap: 0px; 
+}
+
+form.search input[type="text"] {
+    width: 350px; 
+    padding: 10px; 
+    border-radius: 25px 0 0 25px; 
+    border: none;
+    font-size: 16px;
+    outline: none; 
+    height: 40px; 
+    box-sizing: border-box; 
+}
+
+form.search button {
+    background-color: #d65536; 
+    color: white; 
+    border: none; 
+    padding: 0 20px;
+    cursor: pointer; 
+    border-radius: 0 25px 25px 0;
+    font-size: 16px; 
+    height: 40px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+form.search button:hover {
+    background-color: #ffa270; 
+}
+
+form.search i {
+    font-size: 16px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a img {
+    width: 40px; 
+    height: 40px; 
+    object-fit: cover; 
+    transition: transform 0.3s; 
+}
+
+header ul li a img:hover {
+    transform: scale(1.2); 
+}
+/* LANDING PAGE */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #fff8f0;
+   
+}
+header .auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+header .auth-buttons a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid white;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
+    font-size: 14px;
+}
+header .auth-buttons a:hover {
+    background: white;
+    color: #ffb347;
+}
+header {
+    background-color: #ffb347;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.landinglogo {
+    display: flex;
+    align-items: center; 
+    flex: 1; 
+}
+
+.landinglogo img {
+    width: 150px;
+    height: auto;
+    max-width: 200px;
+    max-height:200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: auto;
+    border-radius: 40%;
+    border: 2px solid #f0ab43;
+}
+.landinglogo h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    flex: 1;
+}
+header p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.hero {
+    position: relative;
+    height: 60vh;
+    background: url('landfurry.jpg') no-repeat center top/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    color: white;
+    text-align: center;
+    gap: 10px;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 ;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ff7f50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: #ff6333;
+}
+
+footer {
+    background-color: #333; 
+    color: white;
+    padding: 20px 0;
+    text-align: center; 
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+.footer-content ul li {
+    display: inline-block;
+}
+
+.footer-content ul li a img {
+    width: 40px; 
+    height: 40px; 
+    object-fit: cover; 
+    transition: transform 0.3s; 
+}
+
+.footer-content ul li a img:hover {
+    transform: scale(1.2); 
+}
+

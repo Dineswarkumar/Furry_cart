@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furrycart about</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="pp.js" ></script>
+    <header>
+        <div class="indexlogo">
+            <img src="logo furrycart.jpg" alt="Furry Cart Logo" class="logo">
+            <div class="indexlogo-text">
+                <h1>FurryCart</h1>
+                <p>Healthy Pet, Healthy Home</p>
+            </div>
+        </div>
+        <form class="search" action="search_results.php" method="GET">
+            <input type="text" placeholder="Search products..." name="search" required>
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <ul class="social-media">
+            <li><a href="https://www.facebook.com/"><img id="facebook" src="facebook-icon.png" alt="Facebook"></a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><img id="google" src="google-icon.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com/dinwark_2/"><img src="instagram-icon.png" alt="Instagram"></a></li>
+        </ul>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pp.html">Home</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li><a href="ppa.html">About</a></li>
+            <li><a href="ppc.html">Contact</a></li>
+        </ul>
+        <div class="profile-cart-container">
+            <!-- Profile Icon -->
+            <div class="profile-dropdown">
+                <a href="#" class="profile-icon">
+                    <img src="profile.png" alt="Profile">
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="profile.html">View Profile</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="login.html" id="logout-link" class="logout-btn">Logout</a></li>
+                </ul>
+            </div>
+            <div class="cart">
+                <a href="ppcart.php" class="cart-icon" id="cart-btn">  <!-- Changed from .html to .php -->
+                    <img src="cart.jpg" alt="Cart">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Furry Cart is your one-stop shop for all your pet needs. We offer a wide range of products to keep your furry friends happy and healthy.</p>
+        <p>Our mission is to provide high-quality pet products at affordable prices, ensuring that every pet owner can give their pets the best care possible.</p>
+        <p>Join us in our journey to make the world a better place for pets and their owners!</p>
+    </section>
+    <section id="team">
+        <h2>Our Team</h2>
+        <div class="team-container">
+            <div class="team-card">
+                <img src="dineswara.jpg" alt="Dineswara Kumar">
+                <h3>Dineswara Kumar</h3>
+                <p>Frontend Developer</p>
+            </div>
+            <div class="team-card">
+                <img src="nitish.jpg" alt="Krishna">
+                <h3>Nitish</h3>
+                <p>Backend Developer</p>
+            </div>
+        </div>
+    </section>  
+</body>
+</html>

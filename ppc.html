@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furry cart contactus</title>
+    <link rel="stylesheet" href="pp.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <script src="pp.js"></script>
+    <header>
+        <div class="indexlogo">
+            <img src="logo furrycart.jpg" alt="Furry Cart Logo" class="logo">
+            <div class="indexlogo-text">
+                <h1>FurryCart</h1>
+                <p>Healthy Pet, Healthy Home</p>
+            </div>
+        </div>
+        <form class="search" action="search_results.php" method="GET">
+            <input type="text" placeholder="Search products..." name="search" required>
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <ul class="social-media">
+            <li><a href="https://www.facebook.com/"><img id="facebook" src="facebook-icon.png" alt="Facebook"></a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><img id="google" src="google-icon.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com/dinwark_2/"><img src="instagram-icon.png" alt="Instagram"></a></li>
+        </ul>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="pp.html">Home</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li><a href="ppa.html">About</a></li>
+            <li><a href="ppc.html">Contact</a></li>
+        </ul>
+        <div class="profile-cart-container">
+            <!-- Profile Icon -->
+            <div class="profile-dropdown">
+                <a href="#" class="profile-icon">
+                    <img src="profile.png" alt="Profile">
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="profile.html">View Profile</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="login.html" id="logout-link" class="logout-btn">Logout</a></li>
+                </ul>
+            </div>
+            <div class="cart">
+                <a href="ppcart.php" class="cart-icon" id="cart-btn">  <!-- Changed from .html to .php -->
+                    <img src="cart.jpg" alt="Cart">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section id="find-us">
+        <h2>Find Us</h2>
+        <p>Location of All Branches</p>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.0643924249944!2d79.02379987510297!3d20.949929080679677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0529518230f%3A0x45b76be0621cbb88!2sIndian%20Institute%20of%20Information%20Technology%2C%20Nagpur%20(IIITN)!5e0!3m2!1sen!2sin!4v1744541085519!5m2!1sen!2sin"
+                width="100%" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us. We'd love to hear from you!</p>
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="submit_contact.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+    
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h3>Our Address</h3>
+                <p>IIIT Nagpur ,Waranga,Maharastra</p>
+                <h3>Email</h3>
+                <p>bt24csa062@iiitn.ac.in</p>
+                <h3>Phone</h3>
+                <p>97YYYYYY09</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title> register furrycart</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <script>
+            window.onload=function(){
+                document.getElementById("register").onclick=function(){
+                    var name=document.getElementById("name").value;
+                    var email=document.getElementById("email").value;
+                    var password=document.getElementById("password").value;
+                    var confirmpassword=document.getElementById("confirmpassword").value;
+                    if(name=="" || confirmpassword=="" || email=="" || password==""){
+                        alert("please fill all the fields");
+                        return;
+                    }
+                    if(password!=confirmpassword){
+                        alert("password and confirm pass.. does not matched");
+                        return;
+                    }
+                    if(password.length<4){
+                        alert("password should be of minimum 4 characters");
+                        return;
+                    }
+                    window.location.href="login.html";
+                };   
+        };
+    </script>
+        <div>
+
+            <div class="container">
+                <img src="logo furrycart.jpg" alt="FurryCart Logo" class="logo"> <!-- Logo with border -->
+                  
+                <form action="register.php" method="POST">
+                
+                <table class="login-table">
+                    <tr>
+                        <th colspan="2">Register</th>
+                    </tr>
+                    <tr>
+                        <td><label>Full Name:</label></td>
+                        <td><input type="text" name="name" id="name" placeholder="Enter your Full Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email:</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="Enter email"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password:</label></td>
+                        <td><input type="password" name="password" id="password" placeholder="Enter password"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Confirm Password :</label></td>
+                        <td><input type="password" name="confirmpassword" id="confirmpassword" placeholder="Re-Enter password again"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align:center;">
+                            <button type="submit" id="register">Register</button>
+                        </td>
+                    </tr>
+                   
+                </table>
+            </div>
+        </div>
+    </form>
+       </body>
+</html>
