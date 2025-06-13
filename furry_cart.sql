@@ -158,24 +158,24 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`ID`, `Name`, `Description`, `Price`, `Image`) VALUES
-('07df70cd-1baa-11f0-a16b-30e1718b7983', 'PEDIGREE Puppy Chicken Dog Food', ' Milk 1.2 kg Dry New Born Dog Food', 400, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\dog\\dog_food.jpg'),
-('07df8416-1baa-11f0-a16b-30e1718b7983', 'Barks & Wags Tuxedo for Dog, Cat  (Yellow & Black)', 'Help your dog look spiffy with our selection of formal attire. Your dog can be the best-dressed pooch at any formal gathering. Our tuxedo has a tux-inspired shirt jacket with buttons, attached to a black bow tie.', 1400, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\dog\\dog_cloth.jpg'),
-('07df853d-1baa-11f0-a16b-30e1718b7983', 'Barks & Wags Tuxedo for Dog, Cat  (Dark Blue, Black)', ' Help your dog look spiffy with our selection of formal attire. Your dog can be best-dressed pooch at any formal gathering.', 1000, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\dog\\dog_cloth2.jpg'),
-('07df8620-1baa-11f0-a16b-30e1718b7983', 'Drools Focus booster Pet Health Supplements  (300 g)', 'Puppy weaning Diet for all breeds', 400, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\dog\\dog_pet.jpg'),
-('07df86aa-1baa-11f0-a16b-30e1718b7983', 'HIMALAYA Liv 52 Syrup For increase food,', ' Himalaya Dog Supplements Liv 52 200 Ml work as a appetite stimulant. It helps to protect the liver from chemical toxin and drugs', 500, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\dog\\dog_medicene.jpg'),
-('0d557dbf-1f99-11f0-901e-30e1718b7983', 'combo pet food (Dog&cat)', 'special offer quality food', 800, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\combo_pet_food.png'),
-('1d99487b-1f4d-11f0-884d-30e1718b7983', 'Chicken premium-(Loaf Kitten)', 'chicken food for the cat special dish', 500, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\cat\\cat_food.jpg'),
-('2219b39d-1f52-11f0-884d-30e1718b7983', 'bird cage2', 'bird home to make beautiful', 500, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\bird\\bird_cage2.jpg'),
-('54214634-1f4e-11f0-884d-30e1718b7983', 'sea look aquarium(Fish) real sea look', 'a see type aquarium feels a real one to the fish', 1500, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\fish\\fish_aquariem_2.jpg'),
-('5ecb0547-1f9a-11f0-901e-30e1718b7983', 'pet bowl', 'food storage for pet', 300, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\pet_bowl.jpg'),
-('955edb8c-1ee3-11f0-ae5e-30e1718b7983', 'Cat Chain (Pure Gold) colored into pink ', NULL, 10000, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\cat\\cat chain.jpg'),
-('9b4ac45e-1f4f-11f0-884d-30e1718b7983', 'white spot cure (fish medicine)', 'cures the diseases of fishes and also disorders or infection sdue to eggs', 600, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\fish\\fish medicine.jpg'),
-('b77f46f5-1f52-11f0-884d-30e1718b7983', 'wild bird food', 'Kaytee', 300, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\bird\\Bird_food.jpg'),
-('bea371f2-1fb6-11f0-86e3-30e1718b7983', 'dog play items', 'plaing items', 800, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\dog\\dog play items.jpg'),
-('c03ef59d-1f50-11f0-884d-30e1718b7983', 'Elfins -fish protien food', 'The Healthy guppy bits \r\nfish and sea protien', 500, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\fish\\fish_protien.jpg'),
-('c81f22ad-1f9a-11f0-901e-30e1718b7983', 'maxi junior foodie dog (select gold)', 'select gold company where quality and quantity matters', 300, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\dog_food32.jpg'),
-('cbd51207-1f4d-11f0-884d-30e1718b7983', 'fish Aquarium', 'Beautiful goodlooking glass aquarium', 1300, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\fish\\fish_aquarium.jpg'),
-('db5fea4a-1f51-11f0-884d-30e1718b7983', 'bird cage ', 'bird home ', 800, 'C:\\xampp\\htdocs\\html\\EndSemProj\\PRODUCTS\\bird\\bird_cage.jpg');
+('07df70cd-1baa-11f0-a16b-30e1718b7983', 'PEDIGREE Puppy Chicken Dog Food', ' Milk 1.2 kg Dry New Born Dog Food', 400, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\dog\\dog_food.jpg'),
+('07df8416-1baa-11f0-a16b-30e1718b7983', 'Barks & Wags Tuxedo for Dog, Cat  (Yellow & Black)', 'Help your dog look spiffy with our selection of formal attire. Your dog can be the best-dressed pooch at any formal gathering. Our tuxedo has a tux-inspired shirt jacket with buttons, attached to a black bow tie.', 1400, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\dog\\dog_cloth.jpg'),
+('07df853d-1baa-11f0-a16b-30e1718b7983', 'Barks & Wags Tuxedo for Dog, Cat  (Dark Blue, Black)', ' Help your dog look spiffy with our selection of formal attire. Your dog can be best-dressed pooch at any formal gathering.', 1000, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\dog\\dog_cloth2.jpg'),
+('07df8620-1baa-11f0-a16b-30e1718b7983', 'Drools Focus booster Pet Health Supplements  (300 g)', 'Puppy weaning Diet for all breeds', 400, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\dog\\dog_pet.jpg'),
+('07df86aa-1baa-11f0-a16b-30e1718b7983', 'HIMALAYA Liv 52 Syrup For increase food,', ' Himalaya Dog Supplements Liv 52 200 Ml work as a appetite stimulant. It helps to protect the liver from chemical toxin and drugs', 500, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\dog\\dog_medicene.jpg'),
+('0d557dbf-1f99-11f0-901e-30e1718b7983', 'combo pet food (Dog&cat)', 'special offer quality food', 800, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\combo_pet_food.png'),
+('1d99487b-1f4d-11f0-884d-30e1718b7983', 'Chicken premium-(Loaf Kitten)', 'chicken food for the cat special dish', 500, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\cat\\cat_food.jpg'),
+('2219b39d-1f52-11f0-884d-30e1718b7983', 'bird cage2', 'bird home to make beautiful', 500, 'C:\\xampp\\EndSemProj\\PRODUCTS\\bird\\bird_cage2.jpg'),
+('54214634-1f4e-11f0-884d-30e1718b7983', 'sea look aquarium(Fish) real sea look', 'a see type aquarium feels a real one to the fish', 1500, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\fish\\fish_aquariem_2.jpg'),
+('5ecb0547-1f9a-11f0-901e-30e1718b7983', 'pet bowl', 'food storage for pet', 300, 'C:\\xampp\\htdocs\EndSemProj\\PRODUCTS\\pet_bowl.jpg'),
+('955edb8c-1ee3-11f0-ae5e-30e1718b7983', 'Cat Chain (Pure Gold) colored into pink ', NULL, 10000, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\cat\\cat chain.jpg'),
+('9b4ac45e-1f4f-11f0-884d-30e1718b7983', 'white spot cure (fish medicine)', 'cures the diseases of fishes and also disorders or infection sdue to eggs', 600, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\fish\\fish medicine.jpg'),
+('b77f46f5-1f52-11f0-884d-30e1718b7983', 'wild bird food', 'Kaytee', 300, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\bird\\Bird_food.jpg'),
+('bea371f2-1fb6-11f0-86e3-30e1718b7983', 'dog play items', 'plaing items', 800, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\dog\\dog play items.jpg'),
+('c03ef59d-1f50-11f0-884d-30e1718b7983', 'Elfins -fish protien food', 'The Healthy guppy bits \r\nfish and sea protien', 500, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\fish\\fish_protien.jpg'),
+('c81f22ad-1f9a-11f0-901e-30e1718b7983', 'maxi junior foodie dog (select gold)', 'select gold company where quality and quantity matters', 300, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\dog_food32.jpg'),
+('cbd51207-1f4d-11f0-884d-30e1718b7983', 'fish Aquarium', 'Beautiful goodlooking glass aquarium', 1300, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\fish\\fish_aquarium.jpg'),
+('db5fea4a-1f51-11f0-884d-30e1718b7983', 'bird cage ', 'bird home ', 800, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\bird\\bird_cage.jpg');
 
 --
 -- Indexes for dumped tables
