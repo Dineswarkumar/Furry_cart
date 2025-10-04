@@ -10,13 +10,6 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 --
 -- Database: `furry_cart`
 --
@@ -165,9 +158,9 @@ INSERT INTO `products` (`ID`, `Name`, `Description`, `Price`, `Image`) VALUES
 ('07df86aa-1baa-11f0-a16b-30e1718b7983', 'HIMALAYA Liv 52 Syrup For increase food,', ' Himalaya Dog Supplements Liv 52 200 Ml work as a appetite stimulant. It helps to protect the liver from chemical toxin and drugs', 500, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\dog\\dog_medicene.jpg'),
 ('0d557dbf-1f99-11f0-901e-30e1718b7983', 'combo pet food (Dog&cat)', 'special offer quality food', 800, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\combo_pet_food.png'),
 ('1d99487b-1f4d-11f0-884d-30e1718b7983', 'Chicken premium-(Loaf Kitten)', 'chicken food for the cat special dish', 500, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\cat\\cat_food.jpg'),
-('2219b39d-1f52-11f0-884d-30e1718b7983', 'bird cage2', 'bird home to make beautiful', 500, 'C:\\xampp\\EndSemProj\\PRODUCTS\\bird\\bird_cage2.jpg'),
+('2219b39d-1f52-11f0-884d-30e1718b7983', 'bird cage2', 'bird home to make beautiful', 500, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\bird\\bird_cage2.jpg'),
 ('54214634-1f4e-11f0-884d-30e1718b7983', 'sea look aquarium(Fish) real sea look', 'a see type aquarium feels a real one to the fish', 1500, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\fish\\fish_aquariem_2.jpg'),
-('5ecb0547-1f9a-11f0-901e-30e1718b7983', 'pet bowl', 'food storage for pet', 300, 'C:\\xampp\\htdocs\EndSemProj\\PRODUCTS\\pet_bowl.jpg'),
+('5ecb0547-1f9a-11f0-901e-30e1718b7983', 'pet bowl', 'food storage for pet', 300, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\pet_bowl.jpg'),
 ('955edb8c-1ee3-11f0-ae5e-30e1718b7983', 'Cat Chain (Pure Gold) colored into pink ', NULL, 10000, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\cat\\cat chain.jpg'),
 ('9b4ac45e-1f4f-11f0-884d-30e1718b7983', 'white spot cure (fish medicine)', 'cures the diseases of fishes and also disorders or infection sdue to eggs', 600, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\fish\\fish medicine.jpg'),
 ('b77f46f5-1f52-11f0-884d-30e1718b7983', 'wild bird food', 'Kaytee', 300, 'C:\\xampp\\htdocs\\EndSemProj\\PRODUCTS\\bird\\Bird_food.jpg'),
